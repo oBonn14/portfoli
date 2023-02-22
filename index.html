@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link href="style/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="style/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+
+
+    <title>Portofolio</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg p-6 mb-5 sticky-sm-top">
+        <div class="container">
+            <a class="navbar-brand fs-3 text fw-bold font" href="#">Alfarizi</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link font" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link font" href="#achievement">Achievement</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link font" href="#myproject">My Project</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="container d-flex mb-5">
+        <div class="card bg-transparent border-0" style="width: 18rem; margin-right: 24px;">
+            <img src="img/myfoto.jpeg" class="card-img-top rounded-2" alt="...">
+            <div class="card-body ">
+                <h4 class="card-title fw-semibold font"> Hi, i`am</h4>
+                <p class="card-title fw-bold fs-6 font">Muhamad Exsan Alfarizi El Faisal</p>
+                <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's
+                    content.</p> -->
+            </div>
+            <ul class="list-group list-group-flush ">
+                <li class="list-group-item bg-transparent border-0 font">
+                    <a href="https://wa.me/62895344475665"><i class="bi bi-whatsapp"> Whatsapp</i></a>
+                </li>
+                <li class="list-group-item  bg-transparent border-0 font">
+                    <a href="mailto:exsanal1515@gmail.com"><i class="bi bi-envelope"> Gmail</i></a>
+                </li>
+                <li class="list-group-item  bg-transparent font">
+                    <a href="https://instagram.com/_0bon0_?igshid=ZDdkNTZiNTM="><i class="bi bi-instagram">
+                            Instagram</i></a>
+                </li>
+            </ul>
+            <!-- <div class="card-body">
+                <a href="#" class="card-link">Card link</a>
+                <a href="#" class="card-link">Another link</a>
+            </div> -->
+        </div>
+        <div class="card bg-transparent border-0 col">
+            <div class="card-body ">
+                <h3 class="card-title font"><strong> I`m
+                        Programmer</strong></h3>
+                <p class="card-text font">"I am someone who has a high interest in the field of technology, especially
+                    as a programmer. <br>
+                    I have learned many things such as algorithms, databases, MVC, and programming languages such as
+                    PHP, CSS, JavaScript, and MySQL. <br>
+                    I have also studied some frameworks such as Laravel, Bootstrap, and React.js. <br>
+                    I am always enthusiastic about learning and growing in the IT field, and I aspire to have a career
+                    in IT. <br>
+                    My personal character is supported by my
+                    persistence, my insatiable
+                    curiosity, and my never-ending enthusiasm for learning computer science."</p>
+            </div>
+        </div>
+    </section>
+    <section id="achievement" class="achievement container" style="padding-bottom: 20px;">
+        <div class="row justify-align item-center gap-6">
+            <div class=" col" style=" margin-right: 24px; margin-top:100px; ">
+                <div class="card bg-transparent achievement-img border-0">
+                    <img src="/img/cretifikat1.jpeg" class="card-img-top achievement-img-item rounded-2" alt="...">
+                    <div class="card-body border-0">
+                        <h5 class="card-title font">Laravel</h5>
+                        <p class="card-text font">I have taken a course at Coding Studio where I learned the Laravel
+                            framework.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col" style=" margin-right: 24px;">
+                <div class="card bg-transparent achievement-img border-0">
+                    <img src="/img/certifikat2.jpeg" class="card-img-top achievement-img-item rounded-2" alt="...">
+                    <div class="card-body border-0">
+                        <h5 class="card-title font">Frontend web</h5>
+                        <p class="card-text font">I have taken a course at Coding Studio on learning Front-end Web
+                            Development.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="myproject" class="myproject container d-flex">
+        <div class="card bg-transparent col-12 border-0" style="margin-top: 110px;">
+            <div class="card-body">
+                <!-- <h5 class="card-title font">Card title</h5> -->
+                <p class="card-text font">I have created and designed several projects on my own, as a result of
+                    self-taught learning and some of them through
+                    taking courses.
+                    <br>
+                    I have used several technologies such as native PHP, Bootstrap, Laravel, and MySQL :
+                </p>
+                <div class="myproject-item">
+                    <div class="myproject-item-header">
+                        <div class="font">
+                            <h5>Creating a tuition fee payment information system</h5>
+                            <p>SMK TEKNOLOGI MADNIRI (2018 Mei)</p>
+                        </div>
+                        <button class="btn button" onclick="toggleDetail(event)"> More Info</button>
+                    </div>
+                    <p class="myproject-item-detail font">I will be completing my final project after finishing my
+                        internship to develop SPP (Sumbagan Pembinaan Pendidikan) a web application. The project will
+                        take
+                        a duration of two weeks, but I can finish it in one week using PHP native for the backend,
+                        Bootstrap for the frontend,
+                        and MySQL for the database.</p>
+                </div>
+                <div class="myproject-item">
+                    <div class="myproject-item-header">
+                        <div class="font">
+                            <h5>Creating a school information and attendance system using ID cards with a web app
+                                system.</h5>
+                            <p>SMK TEKNOLOGI MANDIRI (2019 January - 2020 January)</p>
+                        </div>
+                        <button class="btn button" onclick="toggleDetail(event)"> More Info</button>
+                    </div>
+                    <p class="myproject-item-detail font">I am tasked to create a school attendance system project using
+                        ID cards, starting from designing the application and
+                        workflow of the attendance system, and assisting in creating the workflow of the school's
+                        information system.
+                        <br>
+                        I will be
+                        using PHP native technology for the backend, Bootstrap for the frontend design, and MySQL for
+                        the database.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+<script src="style/dist/umd/popper.min.js" crossorigin="anonymous"></script>
+<script src="style/js/bootstrap.min.js" crossorigin="anonymous"></script>
+<script src="main.js"></script>
+<script src="jquery.js"></script>
+
+</html>

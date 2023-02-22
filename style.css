@@ -1,0 +1,82 @@
+section {
+    padding-top: 28px;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+section::before {
+    z-index: -1;
+    content: '';
+    font-size: 72px;
+    color: white;
+    opacity: 0.35;
+    position: absolute;
+    font-weight: 700;
+    top: 20px;
+    left: -30px;
+}
+
+.achievement-img img {
+    width: 100%;
+}
+
+.achievement-img-item {
+    position: relative;
+}
+
+body {
+    background-image: url('img/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    background-image: url('img/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.font {
+    color: aliceblue;
+}
+
+
+.achievement::before {
+    content: 'Achievement';
+}
+
+
+.myproject::before {
+    content: 'My Project';
+}
+
+.myproject-item {
+    margin-top: 32px;
+}
+
+.myproject-item-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.myproject-item-detail {
+    display: none;
+}
+
+.btn.button {
+    border: 3px solid white;
+    border-radius: 24px;
+    color: white;
+}
+
+.btn.button:hover,
+.btn.button.active {
+    border: 3px solid white;
+    background-color: white;
+    color: black;
+}
